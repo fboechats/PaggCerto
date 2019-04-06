@@ -1,0 +1,97 @@
+// Import custom font from Google
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+// Override / set color variables
+$white: #fff;
+$black: #000;
+$green: #00e389;
+$blue: #3399ff;
+$orange: #f26c22;
+$yellow: #ffd925;
+$red: #e5001e;
+
+// Create grayscale
+$gray-dark: #4f4f4f;
+$gray: #5e5e5e;
+$gray-light: #7e7e7e;
+$gray-lighter: #ededed;
+$gray-lightest: #fafafa;
+
+// Set brand colors
+$primary: $blue;
+$success: $green;
+$info: $yellow;
+$warning: $orange;
+$danger: $red;
+
+// Override button colors
+$btn-info-color: darken($info, 45);
+
+// Override alert background colors
+$state-success-bg: lighten($success, 30);
+$state-info-bg: lighten($info, 30);
+$state-warning-bg: lighten($warning, 30);
+$state-danger-bg: lighten($danger, 45);
+
+// Override alert text colors
+$state-success-text: darken($success, 30);
+$state-info-text: darken($info, 30);
+$state-warning-text: darken($warning, 30);
+$state-danger-text: darken($danger, 10);
+
+// Override badges padding (doubled because otherwise too crammed)
+$badge-padding-x: 0.8em;
+$badge-padding-y: 0.4em;
+
+// Don't make badges normal instead of bold
+$badge-font-weight: normal;
+
+
+
+// Set global options
+$enable-shadows: false;
+$enable-gradients: true;
+
+.brand-svg{
+    width: 250px;
+    padding: 10px;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}    
+
+label{
+    font-weight: 600;
+    color: $gray;
+}
+
+h1{
+    color: $gray-dark;
+}
+.navbar-header{
+    border-bottom: 1px solid $gray-lighter;
+}
+
+.btn-round{
+    border-radius: 30px;
+}
+.alert-info{
+    font-size: 15px;
+}
+
+.input-repasse { 
+    text-align: right; 
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+
+}
+
+:-moz-placeholder {
+   text-align: center;
+
+}
