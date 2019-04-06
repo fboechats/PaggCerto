@@ -18,7 +18,7 @@
             <form class="sign-up" action="#">
                 <h2>Criar Cadastro</h2>
                 <div>Clique no botão abaixo para começarmos seu cadastro.</div>
-                <button>Cadastrar</button>
+                <a v-link="{ path: '/foo' }" title="#"><button @click="step1 = !step1">Cadastrar</button></a>
             </form>
             <form class="sign-in" action="#">
                 <h2>Acessar Conta</h2>

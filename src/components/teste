@@ -1,0 +1,26 @@
+<form class="step1" action="#">
+                <h2>Criar Cadastro</h2>
+                <div>Preencha as informações abaixo para darmos inicio ao seu cadastro.</div>
+                <label for="comoConheceu">Como conheceu a PaggCerto?</label>  
+                <select>
+                        <option value="">Selecione</option>
+                        <option value="4">FACEBOOK</option>
+                        <option value="11">FEIRA</option>
+                        <option value="5">GOOGLE</option>
+                        <option value="6">INDICAÇÃO</option>
+                        <option value="12">INSTAGRAM</option>
+                        <option value="1">INTERNET</option>
+                        <option value="8">JORNAL</option>
+                        <option value="10">PANFLETOS</option>
+                        <option value="3">RÁDIO</option>
+                        <option value="9">REPRESENTANTE</option>
+                        <option value="7">REVISTAS</option>
+                        <option value="2">TELEVISÃO</option>
+                </select>
+                <input type="email" placeholder="E-mail"/>
+                <input type="email" placeholder="Confirme Seu E-mail"/>
+                <input type="password" placeholder="Senha"/>
+                <input type="password" placeholder="Confirme Sua Senha"/>
+                <input  type="radio" name="tipoCadastro"  value="1">Pessoa Fisica<br>
+                <input type="radio" name="tipoCadastro">Pessoa Jurídica
+            </form>

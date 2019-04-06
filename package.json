@@ -11,7 +11,8 @@
     "bootstrap": "^4.3.1",
     "vue": "^2.6.6",
     "vue-mask": "^1.0.0",
-    "vue-stepper": "^1.4.2"
+    "vue-stepper": "^1.4.2",
+    "vue-stepper-component": "^1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

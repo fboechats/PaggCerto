@@ -108,8 +108,6 @@
                     <label for="cep-input">CEP</label>
                     <input v-validate="'required'" class="form-control" type="text" id="cep-input" v-mask="'#####-###'" placeholder="#####-###" name="cep" v-model="dadosCadastrais.endereco.cep">
                 </div>
-            </div>
-            <div class="form-group row">
                 <div class="col-sm-6">
                     <label for="celular-input">Telefone</label>
                     <input v-validate="'required'" class="form-control" type="text" id="celular-input" v-mask="'(##) #####-####'" placeholder="(XX)XXXXX-XXXX" name="celular" v-model="dadosCadastrais.telefones.celular">
